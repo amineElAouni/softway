@@ -1,5 +1,7 @@
 # Medical Auto-Diagnostic System
 
+- Le projet est basé sur Java 8 et Maven 3.9.5
+
 ### Design Patterns Utilisés
 
 - **Strategy Pattern** : Ce pattern est utilisé pour encapsuler les différentes stratégies de pathologie (Cardiologie, Traumatologie). Chaque stratégie implémente l'interface `PathologyStrategy` et fournit une méthode pour vérifier si la stratégie s'applique à un index de santé donné, et pour retourner l'unité médicale correspondante.
